@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003CFCF41DB30E2400C15E4F /* NSArray+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CFCF31DB30E2400C15E4F /* NSArray+Blocks.m */; };
 		7C7A70611D9F114700B21B5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A70601D9F114700B21B5B /* main.m */; };
 		7C7A70641D9F114700B21B5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A70631D9F114700B21B5B /* AppDelegate.m */; };
 		7C7A70671D9F114700B21B5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A70661D9F114700B21B5B /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		003CFCF21DB30E2400C15E4F /* NSArray+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Blocks.h"; sourceTree = "<group>"; };
+		003CFCF31DB30E2400C15E4F /* NSArray+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Blocks.m"; sourceTree = "<group>"; };
 		7C7A705C1D9F114700B21B5B /* MemoryManagingProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryManagingProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C7A70601D9F114700B21B5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C7A70621D9F114700B21B5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				7C7A70601D9F114700B21B5B /* main.m */,
+				003CFCF21DB30E2400C15E4F /* NSArray+Blocks.h */,
+				003CFCF31DB30E2400C15E4F /* NSArray+Blocks.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003CFCF41DB30E2400C15E4F /* NSArray+Blocks.m in Sources */,
 				7C7A70671D9F114700B21B5B /* ViewController.m in Sources */,
 				7C7A70641D9F114700B21B5B /* AppDelegate.m in Sources */,
 				7C7A70611D9F114700B21B5B /* main.m in Sources */,
@@ -309,6 +315,7 @@
 				7C7A70751D9F114700B21B5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
